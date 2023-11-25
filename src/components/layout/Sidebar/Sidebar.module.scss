@@ -1,0 +1,15 @@
+.sidebar {
+  @apply flex items-center flex-col justify-between border-r-2 h-[100vh] py-4 border-border text-white;
+
+  a {
+    @apply mb-8 block hover:text-yellow-400 transition;
+  }
+
+  img {
+    @apply cursor-pointer;
+  }
+
+  svg {
+    @apply hover:text-yellow-400 transition cursor-pointer;
+  }
+}
