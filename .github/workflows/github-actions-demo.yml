@@ -18,5 +18,3 @@ jobs:
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: install modules
         run: npm install
-      - name: run success-message
-        run: npm run success-message
